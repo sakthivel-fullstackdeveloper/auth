@@ -1,0 +1,15 @@
+# Ignore node modules and lock files
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# Optional: OS & logs
+.DS_Store
+*.log
+
+# Ignore build folders
+build/
+dist/
+
+# Optional: if you don’t want to share .env files
+# .env
